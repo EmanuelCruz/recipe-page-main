@@ -2,7 +2,11 @@
 export default {
   content: ["./**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "lingth-brown": "#f3e5d8",
+      },
+    },
     fontFamily: {
       primary: "outfit",
       title: "young-serif",
